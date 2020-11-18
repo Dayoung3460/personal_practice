@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #box{
+                width: 250px;
+                height: 250px;
+                background-color: antiquewhite;
+            }
+            #box.orangeBox{
+                background-color: orange;
+            }
+            #box.blueBox{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="messages">msg</h2>
+        <hr>
+        <h2>part 2</h2>
+        <section id="box"></section>
+        <button id="changer">change</button>
+        <script>
+            let messages = document.getElementById('messages');
+            messages.innerText = "hello";
+            let box = document.getElementById('box');
+            let changer = document.getElementById('changer');
+            changer.addEventListener('click', ()=>{
+                console.log('clicked changer');
+                box.classList.toggle('orangeBox');
+            })
+
+            document.cookie = 'name=Kyle; expires=' + new Date(9999, 10, 5).toUTCString();
+            document.cookie = 'lastname=Smith; expires=' + new Date(9999, 10, 5).toUTCString();
+            console.log(document.cookie);
+        </script>
+    </body>
+</html>
