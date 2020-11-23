@@ -1,0 +1,124 @@
+
+
+===================Many things to do!!================
+
+
+* vue 강의
+https://www.youtube.com/watch?v=B98iyg_brxQ&list=PLZzSdj89sCN0sLqrTKf2m7lXe_93C19UG&index=9
+
+* vue()
+
+* 생활코딩 webpack 강의 듣기
+
+* pulling?
+
+* css 캔버스
+
+* 뷰
+
+* 자바스크립트 양 언덕 올라가기
+https://youtu.be/hCHL7sydzn0
+
+* js class 사용한 플젝 만들기
+-> https://youtu.be/jaVNP3nIAv0
+
+* css grid, flexbox
+
+* 쇼핑 포폴 업데이트
+수량 업앤다운 
+공부 좀 더 하고 하기
+
+* 시네마 완성하기
+multiple pages html web site
+pass html data to js.
+
+* awesome people
+->업데이트페이지 파일 올리는거 자바스크립트 콜백 함수 공부
+->페이징색깔
+->로그인 리멤버미
+->비밀번호 바꾸기
+->페북, 구글로 로그인
+->글 all, 공지사항, 검색
+-> 사인업할 때 terms and privacy
+-> awesome people 사이트 svg
+
+
+
+
+
+
+=========----======blablabla======----===========
+
+DATA STRUCTURE, algorithm
+
+FrondEnd-engineer: framework, lib: Angular / React / Vue / 리덕스 / 
+
+* php: pdo? SQL injection? 
+
+* websocket
+
+* js map 공부 다시
+
+* javascript foreach iterate array
+
+* npm
+
+=======================PW=======================
+
+비트나미 111111
+mysql 1234
+
+vscode 들여쓰기 단축기
+alt + shift + F
+
+www.kdfljmyu.site : personal website
+
+infinityFree
+https://app.infinityfree.net/accounts/epiz_26803955
+
+png icon
+pichon
+
+js localstorage 사용할 때  value에 object object 나오면 js object로 저장된거 이거를 JSON.stringify(valueName)
+사용해서 json 형태로 바꿈.
+==== JSON.parse() takes a JSON string and transforms it into a JavaScript object. 
+JSON.stringify() takes a JavaScript object and transforms it into a JSON string.
+
+xampp 아파치 스타트 안될 때
+---this pc -> right click -> manage -> services and application -> services
+-> wampstackapache right click stop
+
+스크린샷 shortcut
+윈도우 + 시프트 + s
+
+시프트+탭
+탭 반대방향 이동
+
+personal branch 이름 original 오타남ㅠㅠ branch명 바꾸기
+
+================= APPLY CV =================
+
+10/30: 티몬
+10/31: 더블디, 씨드업, 리미티드제로(면탈), 제이코프, 붐팩토리, 아론티어, 퓨처웍스, 카이엔터테인먼트, 포비즈코리아
+11/01: 앨리스래빗, 숨고(서탈), 짐싸, 허브디앤씨, 볼드코퍼레이션
+11/02: 젠틀몬스터
+11/03: sendbird, 이쿠얼키(서탈), 렛유인, 코코네(서탈), 이스트몹(서탈), 오드엠(서탈)
+11/04: 아이엠폼, 타임하이브, 루나소프트, 소프트웨어인라이프, 큐버, 메타빌드, 프래프, 핀투비, 렉스퍼
+11/09: 킨터치, 로스토리, 스카다아이씨디, 미스터블루, 나인와트
+11/13: 트위니, 푸른들소프트, 페이타랩, 오디코드, 프래프, 옷딜, 캐시스, 갤럭시소프트
+11/15: 플레이파크, 케이어스(면불참), 퍼니펍, 심플라인, 성원정보기술, 뱅크런, 망고클라우드, 마이다스아이티, 말랑하니(면불참), 돔팸
+
+11/23 2020 월요일 엘엔벤쳐 입사 개발자 첫 입문
+
+* 사람인
+* 워크넷
+* 인크루트
+* 잡코리아
+* 인디드
+* 프로그래머스
+* 원티드
+* 로켓펀치
+* glassdoor
+* linkedIn
+* 스택오버플로우
+* upwork

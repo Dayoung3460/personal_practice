@@ -1,0 +1,5 @@
+cmd창 mysql 실행
+
+cd C:\Bitnami\wampstack-7.3.13-0\mysql\bin> mysql -uroot -p
+
+pw: 1234

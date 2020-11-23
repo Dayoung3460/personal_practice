@@ -1,0 +1,16 @@
+vue run serve 오류날 때
+
+- 모듈을 삭제
+윈도우 명령어
+del node_modules
+
+- dist폴더가 있을 경우
+del dist
+
+- 모듈 재설치
+npm i
+
+- 서버 가동
+npm run serve
+
+ 
