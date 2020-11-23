@@ -1,0 +1,19 @@
+REST API
+HTTP를 이용하여 효율적으로.
+리소스(data): uri를 사용하면됨.
+collection: 리소스 집합
+element: 리소스 하나하나
+리소스를 CRUD로 이용
+CREATE: POST
+READ: GET
+UPDATE: PUT / PATCH
+DELETE: DELETE
+이러한 행위들을 메서드라고 함.
+
+서버가 클라이언트에게 응답할 때 상태코드 통해서 알려줌
+ex) 201 created
+
+리소스를 식별할 땐 uri로.
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>btn</button>
+    <script>
+        let dog = {
+            sound: 'woof',
+            talk: function() {console.log(this.sound)}
+            }
+        let dogFunc = dog.talk.bind(dog);
+        dogFunc();
+
+        let btn = document.querySelector('button');
+        btn.addEventListener('click',
+            // when the click handler is being called, 'this' is not going
+            // to be the dog. it's going to be the window object actually
+            // because that is where the addeventlisteners are being triggered.
+            dogFunc()
+        )
+    </script>
+</body>
+</html>

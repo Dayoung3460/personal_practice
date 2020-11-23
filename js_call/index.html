@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kim = {name: 'kim', first:10, second:20}
+        var lee = {name:'lee', first: 10, second:10}
+        function sum(prefix) {
+            return prefix + (this.first + this.second);
+        }
+        // sum이라는 객체를 실행시켜라
+        // As of js, function is object as well.
+        // 모든 함수는 call이라는 메서드를 가지고 있음.
+        sum.call(kim);
+        console.log(sum.call(lee, '=> '))
+        // call() can have 2 param, first: would be used as 'this'
+        // in the function, second: the actual param of sum()
+    </script>
+</body>
+</html>
