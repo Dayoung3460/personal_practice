@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <button @click='getData'>Get framework list</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script> -->
+    <script>
+       new Vue({
+           el: '#app',
+           methods: {
+               getData: function() {
+                   axios.get('https://jsonplaceholder.typicode.com/posts')
+                   .then(function(response) {
+                       console.log(response);
+                   });
+               }
+           }
+       });
+    </script>
+</body>
+</html>
