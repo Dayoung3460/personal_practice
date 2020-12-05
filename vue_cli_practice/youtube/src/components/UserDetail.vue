@@ -41,7 +41,7 @@
           Edited Date:
         </v-list-tile-content>
         <v-list-tile-content class="align-end">
-          {{ editedDate }}
+          {{ getDateAndTime(editedDate) }}
         </v-list-tile-content>
       </v-list-tile>
     </v-card>
@@ -50,6 +50,7 @@
 
 <script>
 import { eventBus } from "../main"
+import {dateFormat} from "../mixins/dateFormat"
 
 export default {
   data() {
@@ -83,5 +84,20 @@ export default {
       this.editedDate = date
     })
   },
+  // methods: {
+  //   getDateAndTime(date) {
+  //     if(date !== null) {
+  //       let hour = date.getHours();
+  //       let minutes = date.getMinutes();
+  //       let fullDate = `${date.getFullYear()}/${date.getMonth() + 1}/
+  //                       ${date.getDate()}`
+  //       return `${fullDate} ${hour}:${minutes}`;
+  //     } else {
+  //       return null
+  //     }
+      
+  //   }
+  // },
+  mixins: [dateFormat]
 }
 </script>

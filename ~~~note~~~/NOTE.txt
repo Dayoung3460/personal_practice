@@ -5,7 +5,7 @@
 * npm, node_modules/(webpack, babel, eslint), package.json, 
 
 * vue 강의
-https://www.youtube.com/watch?v=B98iyg_brxQ&list=PLZzSdj89sCN0sLqrTKf2m7lXe_93C19UG&index=9
+https://www.youtube.com/watch?v=Y3umUlqkL4E&list=PLZzSdj89sCN0sLqrTKf2m7lXe_93C19UG&index=10
 
 * web3js
 https://www.youtube.com/watch?v=uFdjZ-B3GCM&t=756s
