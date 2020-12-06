@@ -2,10 +2,14 @@
 
 ===================Many things to do!!================
 
-* npm, node_modules/(webpack, babel, eslint), package.json, 
+* personal practice 파일에 깃이그노얼 파일 만들기
 
-* vue 강의
-https://www.youtube.com/watch?v=Y3umUlqkL4E&list=PLZzSdj89sCN0sLqrTKf2m7lXe_93C19UG&index=10
+* webpack, babel, eslint, websocket
+
+* webpack 생활코딩
+https://www.youtube.com/watch?v=mNcsqH3rcus&list=PLuHgQVnccGMChcT9IKopFDoAIoTA-03DA&index=9
+
+* vue router, component
 
 * web3js
 https://www.youtube.com/watch?v=uFdjZ-B3GCM&t=756s

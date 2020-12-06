@@ -79,6 +79,7 @@ export default {
     }
   },
   created() {
+    console.log('mixin user detail')
     // $on: eventBus의 eventListener 역할
     eventBus.$on('userWasEdited', (date) => {
       this.editedDate = date

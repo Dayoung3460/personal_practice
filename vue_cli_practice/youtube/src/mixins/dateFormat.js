@@ -1,4 +1,9 @@
 export const dateFormat = {
+    data() {
+        return {
+            mixinData: 'I am mixin'
+        }
+    },
     methods: {
         getDateAndTime(date) {
             if(date !== null) {
@@ -12,5 +17,8 @@ export const dateFormat = {
                 return null
             }
         }
-    }
+    },
+    created() {
+        console.log('mixin')
+    },
 }
