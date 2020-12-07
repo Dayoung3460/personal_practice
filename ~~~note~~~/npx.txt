@@ -1,0 +1,13 @@
+npx
+
+npm 패키지들을 컴퓨터 저장없이 사용할 수 있게 해줌.
+npm 버전 5이상이면 npx 다있음.
+
+npx webpack
+npx webpack-cli
+npx expo
+npx gulp
+
+용량아낌.
+
+node.js 배우고 나서 npx 다시 배워.

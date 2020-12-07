@@ -2,9 +2,9 @@
   <div class="blue lighten-3 pa-3">
     <h1>User 컴포넌트</h1>
     <p>이름: {{ name }}</p>
-    <v-btn @click='changeName()' color="primary">
-      Change Name
-    </v-btn>
+    <p>{{ getDateAndTime(createdAt) }}</p>
+    {{ helloToMixin }}
+    {{ test }}
     <hr>
     <v-layout row wrap>
       <v-flex xs12 sm6>
@@ -37,6 +37,7 @@
 <script>
 import UserDetail from "./UserDetail.vue"
 import UserEdit from "./UserEdit.vue"
+import {dateFormat} from "../mixins/dateFormat"
 
 export default {
   components: {
@@ -48,8 +49,13 @@ export default {
       name: 'dy',
       address: 'Deagu',
       phone: '010-2344-2342',
-      hasDog: true
+      hasDog: true,
+      createdAt: null
     }
+  },
+  created() {
+    console.log('mixin user')
+    this.createdAt = new Date();
   },
   methods: {
     // param이 object임.
@@ -59,8 +65,31 @@ export default {
       this.phone = user.phone
       this.hasDog = user.hasDog
       console.log('parent got it')
+    },
+    // getDateAndTime(date) {
+    //   if(date !== null) {
+    //     let hour = date.getHours();
+    //     let minutes = date.getMinutes();
+    //     let fullDate = `${date.getFullYear()}/${date.getMonth() + 1}/
+    //                     ${date.getDate()}`
+    //     return `${hour}:${minutes} ${fullDate} `;
+    //   } else {
+    //     return null
+    //   }
+      
+    // },
+  },
+  mixins: [dateFormat],
+  computed: {
+    helloToMixin() {
+      return this.mixinData + ". hi!";
+    },
+    test() {
+      let a = "asdf";
+      a = 'abc'
+      return a 
     }
-  }
+  },
 }
 
 </script>
