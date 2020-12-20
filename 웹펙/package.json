@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.1.4",
+    "lodash": "^4.17.20",
     "webpack": "^5.10.0"
   },
   "devDependencies": {

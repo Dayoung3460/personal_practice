@@ -1,0 +1,6 @@
+ethereum
+
+sendTransaction: from , to, value만 있어도 ㅇㅇ
+to unlock your account, you need to sign on it.
+
+To sign your transaction locally
