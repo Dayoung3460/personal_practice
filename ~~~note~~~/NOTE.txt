@@ -7,6 +7,11 @@ https://opentutorials.org/course/3332/21049
 https://www.youtube.com/watch?v=zPsRlbYKWhI&feature=emb_logo
 
 * vue axious 
+https://www.youtube.com/watch?v=X9In3UA84O4&feature=emb_logo
+
+* vue axiu? axui? ajax같은거 공부하기
+
+* js promise await async
 
 * webpack에서 더 나아가...-> code splitting, lazy loading
 
