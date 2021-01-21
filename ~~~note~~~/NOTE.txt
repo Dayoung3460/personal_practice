@@ -4,6 +4,8 @@
 
 * jwt 무상태 인증?
 
+* vuejs vuex
+
 * nodejs 생코
 https://opentutorials.org/course/3332/21049
 https://www.youtube.com/watch?v=zPsRlbYKWhI&feature=emb_logo
